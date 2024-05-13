@@ -1,0 +1,40 @@
+{
+  "name": "ikbr.js",
+  "version": "1.0.0",
+  "description": "unoffical wrapper for ikbr web api's",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx ts-node-dev --respawn --transpile-only src/index.ts",
+    "lint-fix": "eslint --fix --ext .ts ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hari-uc/ikbr.js.git"
+  },
+  "keywords": [
+    "ikbr.js",
+    "ikbr",
+    "trading",
+    "webull",
+    "interactive-brokers"
+  ],
+  "author": "HARI KRISHNAN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hari-uc/ikbr.js/issues"
+  },
+  "homepage": "https://github.com/hari-uc/ikbr.js#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "@types/node": "^20.12.11",
+    "eslint": "^8.57.0",
+    "ts-node": "^10.9.2",
+    "typescript-eslint": "^7.8.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "chalk": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "puppeteer": "^22.8.1"
+  }
+}
