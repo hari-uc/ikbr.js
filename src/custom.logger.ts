@@ -11,4 +11,7 @@ export const logger = {
   error: (message: string) => {
     console.log(chalk.red(`[${name}]`), message);
   },
+  debug: (message: string) => {
+    console.log(chalk.blue(`[${name}]`), message);
+  }
 };
